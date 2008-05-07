@@ -1,1 +1,1 @@
-require 'pager-exception_notification'
+require "action_mailer"

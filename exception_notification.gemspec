@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.name = "exception_notification"
-  s.version = "1.0.20080507"
-  s.date = "2008-05-07"
+  s.version = "1.0.20080508"
+  s.date = "2008-05-08"
   s.summary = "Gemified exception_notification rails plugin"
   s.email = "avanie@gmail.com"
   s.homepage = "http://github.com/pager/exception_notification"
@@ -11,7 +11,6 @@ Gem::Specification.new do |s|
     "lib/exception_notifiable.rb",
     "lib/exception_notifier.rb",
     "lib/exception_notifier_helper.rb",
-    "lib/pager-exception_notification.rb",
     "rails/init.rb",
     "README",
     "test/exception_notifier_helper_test.rb",
