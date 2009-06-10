@@ -1,8 +1,8 @@
 Gem::Specification.new do |s|
   s.name = "exception_notification"
-  s.version = "1.0.20081208"
-  s.date = "2008-12-08"
-  s.summary = "Gemified exception_notification rails plugin, compatible with Rails 2.2"
+  s.version = "1.0.20090610"
+  s.date = "2009-06-10"
+  s.summary = "Gemified exception_notification rails plugin, compatible with Rails 2.3"
   s.email = "code@jeremyevans.net"
   s.homepage = "http://github.com/jeremyevans/exception_notification"
   s.has_rdoc = true
