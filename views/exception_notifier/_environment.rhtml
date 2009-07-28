@@ -4,4 +4,4 @@
 <% end -%>
 
 * Process: <%= $$ %>
-* Server : <%= `hostname -s`.chomp %>
+* Server : <%= Socket.gethostname %>
