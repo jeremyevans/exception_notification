@@ -48,7 +48,7 @@ class ExceptionNotifier < ActionMailer::Base
     body       data.merge({ :controller => controller, :request => request,
                   :exception => exception, :host => (request.env["HTTP_X_FORWARDED_HOST"] || request.env["HTTP_HOST"]),
                   :backtrace => exception.backtrace,
-                  :rails_root => rails_root, :data => data,
+                  :rails_root => Rails.root, :data => data,
                   :sections => sections })
   end
 end
